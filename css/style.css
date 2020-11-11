@@ -8,7 +8,6 @@ html {
     font-family: sans-serif;
 }
 
-<<<<<<< HEAD
 .paragraph_text {
     font-size: 16px;
     line-height: 26px;
@@ -31,51 +30,10 @@ html {
     text-align: center;
 }
 
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-header {
-    display: flex;
-    background: rgb(216, 208, 208);
-    height: 200px;
-    padding: 20px 50px;
-}
-
-header a {
-    display: block;
-    margin-right: 50px;
-    height: 25px;
-    font-size: 20px;
-    text-decoration: none;
-    color: #000;
-=======
-=======
->>>>>>> Stashed changes
 .paragraph_text {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
-<<<<<<< Updated upstream
-}
-
-.main_logo {
-    font-size: 64px;
-    color: #1F3F68;
->>>>>>> Stashed changes
-}
-
-.contat_us_title {
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-}
-
-<<<<<<< Updated upstream
-header a:hover {
-    font-size: 25px;
-    transition: .5s;
-=======
-=======
 }
 
 .main_logo {
@@ -89,33 +47,26 @@ header a:hover {
     text-align: center;
 }
 
->>>>>>> Stashed changes
+.main_logo {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.contat_us_title {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
 .footer_text {
     font-size: 36px;
     text-align: center;
 }
 
->>>>>>> 3b17b2e9a3dbfac1e673ddce4711155845e4ce9f
 .point {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream
->>>>>>> 3b17b2e9a3dbfac1e673ddce4711155845e4ce9f
-}
-
-.form_element {
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    opacity: 0.4;
-<<<<<<< HEAD
-=======
-}
-
-=======
 }
 
 .form_element {
@@ -125,7 +76,13 @@ header a:hover {
     opacity: 0.4;
 }
 
->>>>>>> Stashed changes
+.form_element {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
 .button {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -136,9 +93,4 @@ header a:hover {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
->>>>>>> 3b17b2e9a3dbfac1e673ddce4711155845e4ce9f
 }
