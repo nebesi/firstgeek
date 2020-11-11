@@ -9,14 +9,21 @@ html {
 }
 
 header {
+    width: 100%;
     display: flex;
     background: rgb(216, 208, 208);
     height: 200px;
     padding: 20px 50px;
 }
 
+a {
+    display: block;
+    margin-bottom: 10px;
+}
+
 header a {
     display: block;
+    margin-bottom: 0px;
     margin-right: 50px;
     height: 25px;
     font-size: 20px;
@@ -31,4 +38,25 @@ header a:visited {
 header a:hover {
     font-size: 25px;
     transition: .5s;
+}
+
+h2,
+h3,
+h4 {
+    margin-top: 15px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+form {
+    border: 3px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+ul,
+li {
+    margin-bottom: 5px;
 }
