@@ -9,6 +9,7 @@ html {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 header {
     display: flex;
     background: rgb(216, 208, 208);
@@ -24,10 +25,13 @@ header a {
     text-decoration: none;
     color: #000;
 =======
+=======
+>>>>>>> Stashed changes
 .paragraph_text {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
+<<<<<<< Updated upstream
 }
 
 .main_logo {
@@ -47,6 +51,21 @@ header a:hover {
     font-size: 25px;
     transition: .5s;
 =======
+=======
+}
+
+.main_logo {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.contat_us_title {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+>>>>>>> Stashed changes
 .footer_text {
     font-size: 36px;
     text-align: center;
@@ -56,6 +75,7 @@ header a:hover {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+<<<<<<< Updated upstream
 }
 
 .form_element {
@@ -65,6 +85,17 @@ header a:hover {
     opacity: 0.4;
 }
 
+=======
+}
+
+.form_element {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+>>>>>>> Stashed changes
 .button {
     background: #5A98D0;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -75,5 +106,8 @@ header a:hover {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
