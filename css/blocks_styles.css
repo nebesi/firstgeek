@@ -1,0 +1,66 @@
+.section_top {
+    border: 4px solid red;
+}
+
+header {
+    border: 2px solid green;
+}
+
+.logo_block {
+    border: 2px solid aqua;
+    width: 400px;
+}
+
+.container {
+    border: 3px solid blue;
+}
+
+.what_we_do {
+    border: 2px solid green;
+}
+
+.item_field {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    border: 2px solid black;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contacts_link {
+    border: 2px solid red;
+    width: 300px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.section_bottom {
+    border: 2px solid red;
+}
+
+.form {
+    border: 2px solid grey;
+    width: 400px;
+}
+
+.form_aside {
+    border: 2px solid grey;
+    width: 400px;
+}
+
+.yandex_map {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+}

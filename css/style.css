@@ -1,4 +1,4 @@
-
+@import url("/css/blocks_styles.css");
 
 html {
     font-family: sans-serif;
@@ -21,7 +21,7 @@ html {
     text-align: center;
 }
 
-.footer_text {
+.promo_text {
     font-size: 36px;
     text-align: center;
 }
