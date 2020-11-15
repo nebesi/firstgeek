@@ -1,24 +1,40 @@
-@import url("/css/blocks_styles.css");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 html {
     font-family: sans-serif;
 }
 
-.paragraph_text {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header .top_nav .nav_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .top_nav .nav_list .nav_list_link {
+    list-style: none;
+}
+
+.logo_block {
+    width: 510px;
 }
 
 .main_logo {
+    width: 510px;
     font-size: 64px;
     color: #1F3F68;
 }
 
-.contat_us_title {
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
+.main_logo_text {
+    display: block;
+    width: 425px;
 }
 
 .promo_text {
@@ -26,36 +42,24 @@ html {
     text-align: center;
 }
 
+.card_field {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    max-width: 359px;
+}
+
 .paragraph_text {
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
 }
 
-.main_logo {
-    font-size: 64px;
-    color: #1F3F68;
-}
-
 .contat_us_title {
     font-weight: 500;
     font-size: 44px;
-    text-align: center;
-}
-
-.main_logo {
-    font-size: 64px;
-    color: #1F3F68;
-}
-
-.contat_us_title {
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-}
-
-.footer_text {
-    font-size: 36px;
     text-align: center;
 }
 
@@ -65,11 +69,12 @@ html {
     color: #1F3F68;
 }
 
-.form_element {
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    opacity: 0.4;
+.form {
+    width: 400px;
+}
+
+.form_aside {
+    width: 400px;
 }
 
 .form_element {
@@ -89,4 +94,25 @@ html {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts_link {
+    list-style: none;
+    width: 300px;
+    text-align: center;
+}
+
+.footer_top_title {
+    max-width: 495px;
+}
+
+.footer_promo {
+    max-width: 340px;
+    text-align: left;
 }

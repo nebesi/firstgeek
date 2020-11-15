@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/blocks_styles.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Главная</title>
 </head>
 <body>
     
-<div class="section_top"> <!-- секция -->
+<section class="section_top"> <!-- секция -->
 
     <div class="container"> <!-- ограничительный контейнер -->
-        <header> <!-- шапка сайта -->
-            <nav class="nav"> <!-- навигационное меню -->
+        <header class="header"> <!-- шапка сайта -->
+            <nav class="top_nav"> <!-- навигационное меню -->
                 <ul class="nav_list">
-                    <li class="nav_list_links"><a href="#">Главная</a></li>
-                    <li class="nav_list_links"><a href="contacts.html">Контакты</a></li>
+                    <li class="nav_list_link"><a href="#">Главная</a></li>
+                    <li class="nav_list_link"><a href="contacts.html">Контакты</a></li>
                 </ul>
             </nav>
         </header>
@@ -24,62 +25,70 @@
         
         <div class="logo_block"> <!-- блок промо -->
             <h1 class="main_logo">myWork</h1>
-            <p class="paragraph_text">Добро пожаловать на мой сайт</p>
+            <p class="paragraph_text main_logo_text">Добро пожаловать на мой сайт</p>
         </div>
     </div>
 
-</div>
+</section>
 
-<div class="container">
+<section class="section_middle">
 
-    <div class="what_we_do">
+    <div class="container">
+
         <h3 class="promo_text">what we do to help</h3>
-    </div>
-
-    <div class="item_field">
-        <div class="item">
-            <h3 class="promo_text">Вскоре добавится js</h3>
-            <p class="paragraph_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
     
-        <div class="item">
-            <h3 class="promo_text">Вскоре добавится js</h3>
-            <p class="paragraph_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-    
-        <div class="item">
-            <h3 class="promo_text">Вскоре добавится js</h3>
-            <p class="paragraph_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </div>
-    </div>
-
-</div>
-
-<div class="section_bottom">
-    <footer>
-        <div class="container">
-            <div class="bottom_title">
-                <h3 class="promo_text">Подвал сайта</h3>
-                <p class="paragraph_text">Здесь расположен какой-то текст</p>
+        <div class="card_field">
+            <div class="card">
+                <h4 class="card_point">Вскоре добавится js</h4>
+                <p class="paragraph_text card_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
-    
-            <hr>
-        </div>
-
-        <div class="container">
-            <ul class="contacts">
-                <li class="contacts_link">произвольный текст не более 5 слов</li>
-                <li class="contacts_link">+78007007070</li>
-                <li class="contacts_link"><a href="mailto:maksim.shirokov2011@mail.ru">Моя почта</a></li>
-            </ul>
         
-            <div class="copyright">
-                <p class="paragraph_text">Все права защищены &copy;</p>
+            <div class="card">
+                <h4 class="card_point">Вскоре добавится js</h4>
+                <p class="paragraph_text card_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+        
+            <div class="card">
+                <h4 class="card_point">Вскоре добавится js</h4>
+                <p class="paragraph_text card_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
         </div>
+    
+    </div>
 
-    </footer>
-</div>
+</section>
+
+<section class="section_bottom">
+
+    <div class="container">
+
+        <footer>
+            <div class="footer_top">
+                <div class="footer_top_title">
+                    <h3 class="promo_text footer_promo">Подвал сайта</h3>
+                    <p class="paragraph_text ">Здесь расположен какой-то текст</p>
+                </div>
+        
+                <hr>
+            </div>
+    
+            <div class="footer_bottom">
+                <ul class="contacts">
+                    <li class="contacts_link">произвольный текст не более 5 слов</li>
+                    <li class="contacts_link">+78007007070</li>
+                    <li class="contacts_link"><a href="mailto:maksim.shirokov2011@mail.ru">Моя почта</a></li>
+                </ul>
+            
+                <div class="copyright">
+                    <p class="paragraph_text">Все права защищены &copy;</p>
+                </div>
+            </div>
+    
+        </footer>
+
+    </div>
+
+</section>
 
 </body>
 </html>
