@@ -5,12 +5,25 @@
 }
 
 html {
+    font-family: 'Roboto'sans-serif;
     font-family: sans-serif;
 }
 
 .container {
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1140px;
+}
+
+.paragraph_text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.section_top {
+    padding-top: 42px;
+    height: 768px;
+    background: url("../image/first_screen.svg") center center / cover no-repeat;
 }
 
 .header .top_nav .nav_list {
@@ -22,40 +35,183 @@ html {
     list-style: none;
 }
 
+.content_top {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .logo_block {
-    width: 510px;
+    padding-top: 115px;
+    background: url('../icons/illustration.svg') no-repeat right 81.84px;
+    flex-grow: 1;
 }
 
 .main_logo {
     width: 510px;
+    font-style: normal;
+    font-weight: 300;
     font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
     color: #1F3F68;
+    margin-bottom: 32px;
 }
 
 .main_logo_text {
     display: block;
     width: 425px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.seeproj {
+    display: inline-block;
+    margin-top: 71px;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 15px 50px;
+}
+
+.section_middle {
+    min-height: 1948px;
+    padding-top: 64px;
 }
 
 .promo_text {
+    font-style: normal;
+    font-weight: 300;
     font-size: 36px;
+    line-height: 46px;
     text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 .card_field {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 63.87px;
+}
+
+.card:first-child {
+    background: url('../icons/manwithbuisnesslist.svg') no-repeat 69px 43.9px;
+}
+
+.card:nth-child(2) {
+    background: url('../icons/manwithalltech.svg') no-repeat 69px 14.03px;
+}
+
+.card:last-child {
+    background: url('../icons/womanandnote.svg') no-repeat 69px 48.51px;
 }
 
 .card {
+    display: flex;
+    margin-top: 64px;
+    flex-direction: column;
+    padding: 216px 44px 44px 32px;
     max-width: 359px;
+    height: 480.13px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
 }
 
-.paragraph_text {
-    font-size: 16px;
-    line-height: 26px;
+.card_point {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    width: 283px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
     color: #1F3F68;
 }
+
+.card_text {
+    margin-top: 14.5px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.learn_more {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+}
+
+.link_right {
+    transform: translate(23.78px, 30%);
+}
+
+.finishing_text {
+    width: 75%;
+    margin: 32px auto 64px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+}
+
+.project {
+    max-width: 100%;
+}
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project__item_margin {
+    margin-right: 32px;
+}
+
+.project__text {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project__parent .project__item .project__text {
+    top: 32px;
+    left: 32px;
+    text-align: left;
+}
+
 
 .contat_us_title {
     font-weight: 500;
@@ -96,23 +252,119 @@ html {
     text-transform: uppercase;
 }
 
-.contacts {
+.section_bottom {
+    background: #316099;
+    min-height: 657px;
+}
+
+footer {
+    padding: 91px 0 64px;
+}
+
+.footer_top {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.contacts_link {
-    list-style: none;
-    width: 300px;
-    text-align: center;
+.footer_top_title {
+    max-width: 494px;
 }
 
-.footer_top_title {
-    max-width: 495px;
+.footer_text {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.button_link {
+    display: inline-block;
+    align-self: center;
+    width: 236.63px;
+    height: 56px;
+    background: #5A98D0;
+    padding: 15px 80px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.border {
+    padding-top: 96px;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .footer_promo {
     max-width: 340px;
     text-align: left;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer_bottom {
+    padding-top: 64px;
+}
+
+.contacts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 64px;
+}
+
+.mymail {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contact_text {
+    position: relative;
+
+    max-width: 316px;
+    list-style: none;
+    text-align: left;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+.contact_text:first-child::before {
+    position: absolute;
+    content: "A.";
+    left: -24px;
+}
+
+.contact_text:nth-child(2)::before {
+    position: absolute;
+    content: "A.";
+    left: -24px;
+}
+
+.contact_text:last-child::before {
+    position: absolute;
+    content: "A.";
+    left: -24px;
+}
+
+.contact_link {
+    color: #FFFFFF;
+}
+
+.copyright_text {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
